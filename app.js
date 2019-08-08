@@ -15,3 +15,14 @@ const alterFile = (file) => {
 
 let file = process.argv.slice(2).shift();
 alterFile(file);
+
+// code from demo
+
+const events = require('./events.js');
+
+require('./logger.js');
+require('./danger.js');
+
+events.emit('create', {id:17, name: 'Electronics'});
+events.emit('delete', {id: 17});
+events.emit('update', {id: 17, name: 'Food'});

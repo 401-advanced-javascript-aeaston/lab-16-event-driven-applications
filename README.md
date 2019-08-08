@@ -5,10 +5,8 @@
 ### Author: Adrienne Easton
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-aeaston/lab-16-event-driven-applications/pull/2)
+* [travis][![Build Status](https://travis-ci.com/401-advanced-javascript-aeaston/lab-16-event-driven-applications.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aeaston/lab-16-event-driven-applications)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
@@ -26,9 +24,7 @@ Usage Notes or examples
 Usage Notes or examples
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `npm i`
 
 #### Running the app
 * `npm start`
